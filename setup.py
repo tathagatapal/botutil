@@ -8,10 +8,10 @@ setup(
   author = 'Tathagata Pal',                   # Type in your name
   author_email = 'tathagatapal@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/tathagatapal/botutil',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/tathagatapal/botutil/archive/v_01.zip',    # I explain this later on
   keywords = ['BOT', 'Python', 'Utility'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'validators',
+          'google.cloud',
           'beautifulsoup4',
       ],
   classifiers=[
